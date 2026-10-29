@@ -1,0 +1,51 @@
+artifact_path: file:///C:/Users/kauea/OneDrive/%C3%81rea%20de%20Trabalho/Nerd/Data%20Science/Case_Fraude-main/mlruns/models/m-311ad67177a241299e9410f89842c175/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.17.2
+model_id: m-311ad67177a241299e9410f89842c175
+model_size_bytes: 2492359
+model_uuid: m-311ad67177a241299e9410f89842c175
+prompts: null
+run_id: e5e09d843e1e4982b98985091bdd7efb
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "score_1", "required": true}, {"type": "double",
+    "name": "score_2", "required": true}, {"type": "double", "name": "score_3", "required":
+    true}, {"type": "double", "name": "score_4", "required": true}, {"type": "double",
+    "name": "score_5", "required": true}, {"type": "double", "name": "score_6", "required":
+    true}, {"type": "string", "name": "pais", "required": true}, {"type": "long",
+    "name": "score_7", "required": true}, {"type": "string", "name": "categoria_produto",
+    "required": true}, {"type": "double", "name": "score_8", "required": true}, {"type":
+    "double", "name": "score_9", "required": true}, {"type": "double", "name": "score_10",
+    "required": true}, {"type": "long", "name": "entrega_doc_1", "required": true},
+    {"type": "long", "name": "entrega_doc_2", "required": true}, {"type": "long",
+    "name": "entrega_doc_3", "required": true}, {"type": "double", "name": "valor_compra",
+    "required": true}, {"type": "long", "name": "score_2_faltante", "required": true},
+    {"type": "long", "name": "score_3_faltante", "required": true}, {"type": "long",
+    "name": "score_4_faltante", "required": true}, {"type": "long", "name": "score_6_faltante",
+    "required": true}, {"type": "long", "name": "pais_faltante", "required": true},
+    {"type": "long", "name": "score_9_faltante", "required": true}, {"type": "long",
+    "name": "score_10_faltante", "required": true}, {"type": "long", "name": "entrega_doc_2_faltante",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-29 17:40:55.206608'
